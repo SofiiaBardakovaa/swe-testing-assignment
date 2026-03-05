@@ -64,6 +64,20 @@ Example calculation:
 
 ---
 
+## Running Tests
+
+Install **pytest** if it is not installed: 
+```
+pip install pytest
+```
+
+Run all unit tests with: 
+```
+pytest
+```
+
+---
+
 ## 🚀 Future Improvements
 
 * Keyboard input support
