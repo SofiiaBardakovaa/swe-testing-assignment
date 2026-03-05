@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f24751-fd41-4118-b132-b06415e22028" name="Changes" comment="feat: add numeric buttons (0-9) to calculator interface">
+    <list default="true" id="71f24751-fd41-4118-b132-b06415e22028" name="Changes" comment="feat: add arithmetic operator buttons (+, -, *, /)">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1772737751105</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: add arithmetic operator buttons (+, -, *, /)">
+      <option name="closed" value="true" />
+      <created>1772737977591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772737977591</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add basic Tkinter calculator GUI and calculation functions" />
     <MESSAGE value="feat: add numeric buttons (0-9) to calculator interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add numeric buttons (0-9) to calculator interface" />
+    <MESSAGE value="feat: add arithmetic operator buttons (+, -, *, /)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add arithmetic operator buttons (+, -, *, /)" />
   </component>
 </project>
