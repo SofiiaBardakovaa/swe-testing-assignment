@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f24751-fd41-4118-b132-b06415e22028" name="Changes" comment="fix: correct equals button command and calculation variable type">
-      <change afterPath="$PROJECT_DIR$/calculator_logic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_calculator.py" afterDir="false" />
+    <list default="true" id="71f24751-fd41-4118-b132-b06415e22028" name="Changes" comment="refactor: extract calculation logic into separate module&#10;test: add unit tests for calculator logic">
+      <change afterPath="$PROJECT_DIR$/tests/test_integration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -110,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772738838780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor: extract calculation logic into separate module&#10;test: add unit tests for calculator logic">
+      <option name="closed" value="true" />
+      <created>1772740812701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772740812701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +126,7 @@
     <MESSAGE value="feat: add arithmetic operator buttons (+, -, *, /)" />
     <MESSAGE value="feat: add equals, clear and parentheses buttons to calculator&#10;fix: adjust grid positions for -, *, / buttons" />
     <MESSAGE value="fix: correct equals button command and calculation variable type" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correct equals button command and calculation variable type" />
+    <MESSAGE value="refactor: extract calculation logic into separate module&#10;test: add unit tests for calculator logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: extract calculation logic into separate module&#10;test: add unit tests for calculator logic" />
   </component>
 </project>
