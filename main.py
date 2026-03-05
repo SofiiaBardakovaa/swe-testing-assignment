@@ -1,4 +1,5 @@
 import tkinter as tk
+from calculator_logic import calculate
 
 calculation = ""
 
@@ -10,13 +11,11 @@ def add_to_calculation(symbol):
 
 def evaluate_calculation():
     global calculation
-    try:
-        calculation = str(eval(calculation))
-        text_result.delete(1.0, "end")
-        text_result.insert(1.0, calculation)
-    except:
-        clear_field()
-        text_result.insert(1.0, "Error")
+    result = calculate(calculation)
+    calculation = str(result)
+
+    text_result.delete(1.0, "end")
+    text_result.insert(1.0, calculation)
 
 def clear_field():
     global calculation
